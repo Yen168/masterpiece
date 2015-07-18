@@ -1,4 +1,5 @@
 # Masterpiece
+[![Gem Version](https://badge.fury.io/rb/masterpiece.svg)](http://badge.fury.io/rb/masterpiece)
 ## Installation
 
 Add this line to your application's Gemfile:
