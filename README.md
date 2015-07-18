@@ -17,6 +17,33 @@ Or install it yourself as:
 
 ## Usage
 
+```ruby
+html = Masterpiece::HTML.new do
+
+	html do
+
+    	head do
+
+      		title "title-test"
+      		comment "comment-test"
+
+    	end
+    
+    	body "body-test",attr1:"1",attr2:"2" do
+
+    		comment "comment-test-body" 
+    		h1 'hey'
+    		comment "comment-test-body-2" 
+
+    	end
+
+    	a "link-test",href:"http://www.w3schools.com"
+
+  	end
+end
+
+puts html.html_code
+```
 
 
 ## Contributing
